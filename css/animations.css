@@ -1,0 +1,82 @@
+/*====== TypWriter Animation ======*/
+@keyframes typewriter {
+  0% { content: ""; }
+  1% { content: "L"; }
+  2% { content: "La"; }
+  3% { content: "Lar"; }
+  4% { content: "Larr"; }
+  5% { content: "Larry"; }
+  6% { content: "Larry "; }
+  7% { content: "Larry D"; }
+  8% { content: "Larry Da"; }
+  9% { content: "Larry Dan"; }
+  10% { content: "Larry Dani"; }
+  11% { content: "Larry Danie"; }
+  12% { content: "Larry Daniel"; }
+  13% { content: "Larry Daniels"; }
+  19% { content: "Larry Daniels"; }
+  25% { content: "Larry Daniels"; }
+  26% { content: "Larry Daniel"; }
+  27% { content: "Larry Danie"; }
+  28% { content: "Larry Dani"; }
+  29% { content: "Larry Dan"; } 
+  30% { content: "Larry Da"; } 
+  31% { content: "Larry D"; }
+  32% { content: "Larry "; }
+  33% { content: "Larry"; }
+  34% { content: "Larr"; }
+  35% { content: "Lar"; }
+  36% { content: "La"; }
+  37% { content: "L"; }
+  38% { content: ""; }
+  39% { content: ""; }
+  40% { content: "D"; }
+  41% { content: "De"; }
+  42% { content: "Dev"; }
+  43% { content: "Deve"; }
+  44% { content: "Devel"; }
+  45% { content: "Develo"; }
+  46% { content: "Develop"; }
+  47% { content: "Develope"; }
+  48% { content: "Developer"; }
+  54% { content: "Developer"; }
+  60% { content: "Developer"; }
+  61% { content: "Develope"; }
+  62% { content: "Develop"; }
+  63% { content: "Develo"; }
+  64% { content: "Devel"; }
+  65% { content: "Deve"; }
+  66% { content: "Dev"; }
+  67% { content: "De"; }
+  68% { content: "D"; }
+  69% { content: ""; }
+  70% { content: ""; }
+  71% { content: "D"; }
+  72% { content: "De"; }
+  73% { content: "Des"; }
+  74% { content: "Desi"; }
+  75% { content: "Desig"; }
+  76% { content: "Design"; }
+  77% { content: "Designe"; }
+  78% { content: "Designer"; }
+  84% { content: "Designer"; }
+  90% { content: "Designer"; }
+  91% { content: "Designe"; }
+  92% { content: "Design"; }
+  93% { content: "Desig"; }
+  94% { content: "Desi"; }
+  95% { content: "Des"; }
+  96% { content: "De"; }
+  97% { content: "D"; }
+  98% { content: ""; }
+  99% { content: ""; }
+}
+
+/*====== Portfolio Images Animation ======*/
+@keyframes grow {
+  0% {    opacity: 0;    transform: scale(0.2);  }
+  100% {    opacity: 1;    transform: scale(1);  }
+}
+
+
+

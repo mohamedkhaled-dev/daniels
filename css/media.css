@@ -1,0 +1,51 @@
+/*====== md: 768px ~ 992px ======*/
+@media screen and (min-width: 768px) {
+  /* ====== Navbar ====== */
+  .navbar-menu {
+    margin-left: 2.5rem;
+    background-color: transparent !important;
+    border-top: none;
+  }
+
+  .navbar-nav .nav-link.active {
+    color: var(--color-dark);
+  }
+
+  body:has(.home-link.active) .nav-link {
+    color: var(--color-white);
+  }
+
+  body:has(.home-link.active) .nav-link.active {
+    color: var(--color-white);
+  }
+
+  body:has(.home-link.active) .nav-link::before {
+    background-color: var(--color-white);
+  }
+
+  /* ====== Header ====== */
+  .header h1 {
+    font-size: var(--size-44) !important;
+  }
+
+  /* ====== Testimonials ====== */
+  .carousel-container {
+    min-width: 46.875rem;
+  }
+}
+
+/*====== lg: 1200px ~ 992px======*/
+@media screen and (min-width: 992px) {
+  /* ====== Navbar ====== */
+  .navbar-nav .nav-link {
+    font-size: var(--size-14);
+  }
+}
+
+/*====== xl++: >> 1200px======*/
+@media screen and (min-width: 1200px) {
+  /* ====== Header ====== */
+  .header h1 {
+    font-size: var(--size-60) !important;
+  }
+}
